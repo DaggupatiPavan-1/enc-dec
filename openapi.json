@@ -5,6 +5,12 @@
     "description": "enc-dec",
     "version": "1.0.0"
   },
+  "servers": [
+    {
+      "url": "http://4.222.216.182:31843",
+      "description": "Local deployment"
+    }
+  ],
   "paths": {
     "/": {
       "get": {
