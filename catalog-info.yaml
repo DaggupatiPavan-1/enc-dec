@@ -26,6 +26,5 @@ spec:
   type: service
   owner: user:default/daggupatipavan
   lifecycle: production
-  providesApis:
-    - enc-dec-api
+
 
