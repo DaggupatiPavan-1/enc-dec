@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: enc-dec
+  description: enc-dec
+  annotations:
+    github.com/project-slug: DaggupatiPavan-1/enc-dec
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - python
+    - fastapi
+    - docker
+    - api
+    - encryption
+    - security
+  links:
+    - url: http://localhost:8000/docs
+      title: Swagger UI
+      icon: docs
+    - url: http://localhost:8000
+      title: API Endpoint
+      icon: api
+spec:
+  type: service
+  owner: user:default/daggupatipavan
+  lifecycle: production
+  providesApis:
+    - enc-dec-api
