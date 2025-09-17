@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: DaggupatiPavan-1/enc-dec
     argocd/app-name: enc-dec
     backstage.io/kubernetes-namespace: dev
-    backstage.io/kubernetes-label-selector: enc-dec
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=enc-dec
     backstage.io/techdocs-ref: dir:.
   tags:
     - python
